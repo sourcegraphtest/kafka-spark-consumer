@@ -1,153 +1,1162 @@
-[ {
-  "groupId" : "junit",
-  "artifactId" : "junit",
-  "version" : "4.11",
-  "scope" : "test",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.junit.runners", "org.junit.experimental.theories", "org.junit.experimental", "org.junit.internal.runners.rules", "org.junit.internal.requests", "org.junit.experimental.results", "org.junit.internal.runners.model", "org.junit.internal.builders", "junit.textui", "org.junit.experimental.categories", "org.junit.experimental.theories.internal", "junit.extensions", "org.junit.internal.runners.statements", "org.junit.experimental.max", "org.junit.runner.notification", "org.junit.experimental.theories.suppliers", "org.junit.matchers", "org.junit.internal.matchers", "org.junit.runner.manipulation", "org.junit.experimental.runners", "org.junit.rules", "org.junit.runners.model", "org.junit.internal", "junit.runner", "org.junit.runner", "org.junit", "junit.framework", "org.junit.internal.runners" ]
-}, {
-  "groupId" : "org.hamcrest",
-  "artifactId" : "hamcrest-core",
-  "version" : "1.3",
-  "scope" : "test",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.hamcrest.internal", "org.hamcrest.core", "org.hamcrest" ]
-}, {
-  "groupId" : "com.googlecode.json-simple",
-  "artifactId" : "json-simple",
-  "version" : "1.1.1",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.json.simple", "org.json.simple.parser" ]
-}, {
-  "groupId" : "org.slf4j",
-  "artifactId" : "slf4j-api",
-  "version" : "1.7.10",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.slf4j", "org.slf4j.spi", "org.slf4j.helpers" ]
-}, {
-  "groupId" : "log4j",
-  "artifactId" : "log4j",
-  "version" : "1.2.17",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.log4j.config", "org.apache.log4j.jdbc", "org.apache.log4j.helpers", "org.apache.log4j.lf5.viewer.categoryexplorer", "org.apache.log4j.chainsaw", "org.apache.log4j.nt", "org.apache.log4j.lf5.viewer", "org.apache.log4j.lf5.viewer.configure", "org.apache.log4j.net", "org.apache.log4j.lf5", "org.apache.log4j.varia", "org.apache.log4j.xml", "org.apache.log4j.jmx", "org.apache.log4j.pattern", "org.apache.log4j.or", "org.apache.log4j.lf5.util", "org.apache.log4j.or.jms", "org.apache.log4j.rewrite", "org.apache.log4j", "org.apache.log4j.or.sax", "org.apache.log4j.spi" ]
-}, {
-  "groupId" : "io.netty",
-  "artifactId" : "netty",
-  "version" : "3.8.0.Final",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.jboss.netty.handler.timeout", "org.jboss.netty.channel.local", "org.jboss.netty.channel", "org.jboss.netty.handler.logging", "org.jboss.netty.handler.codec.oneone", "org.jboss.netty.util.internal", "org.jboss.netty.buffer", "org.jboss.netty.handler.execution", "org.jboss.netty.handler.codec.http.websocketx", "org.jboss.netty.handler.codec.serialization", "org.jboss.netty.handler.codec.embedder", "org.jboss.netty.handler.ipfilter", "org.jboss.netty.handler.codec.http", "org.jboss.netty.handler.codec.replay", "org.jboss.netty.container.spring", "org.jboss.netty.channel.socket", "org.jboss.netty.handler.codec.marshalling", "org.jboss.netty.util.internal.jzlib", "org.jboss.netty.handler.codec.http.multipart", "org.jboss.netty.handler.ssl", "org.jboss.netty.handler.stream", "org.jboss.netty.logging", "org.jboss.netty.channel.socket.oio", "org.jboss.netty.handler.codec.rtsp", "org.jboss.netty.channel.socket.nio", "org.jboss.netty.handler.codec", "org.jboss.netty.handler.codec.socks", "org.jboss.netty.container.microcontainer", "org.jboss.netty.handler.traffic", "org.jboss.netty.handler.queue", "org.jboss.netty.handler.codec.string", "org.jboss.netty.channel.group", "org.jboss.netty.bootstrap", "org.jboss.netty.handler.codec.http.websocket", "org.jboss.netty.handler.codec.frame", "org.jboss.netty.handler.codec.spdy", "org.jboss.netty.channel.socket.http", "org.jboss.netty.handler.codec.compression", "org.jboss.netty.util", "org.jboss.netty.container.osgi", "org.jboss.netty.handler.codec.base64", "org.jboss.netty.handler.codec.protobuf" ]
-}, {
-  "groupId" : "commons-cli",
-  "artifactId" : "commons-cli",
-  "version" : "1.2",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.commons.cli" ]
-}, {
-  "groupId" : "commons-logging",
-  "artifactId" : "commons-logging",
-  "version" : "1.1.3",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.commons.logging", "org.apache.commons.logging.impl" ]
-}, {
-  "groupId" : "net.sf.jopt-simple",
-  "artifactId" : "jopt-simple",
-  "version" : "3.2",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "joptsimple.internal", "joptsimple.util", "joptsimple" ]
-}, {
-  "groupId" : "com.google.guava",
-  "artifactId" : "guava",
-  "version" : "13.0",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "com.google.common.hash", "com.google.common.base", "com.google.common.annotations", "com.google.common.reflect", "com.google.common.util.concurrent", "com.google.common.net", "com.google.common.math", "com.google.common.primitives", "com.google.common.base.internal", "com.google.common.cache", "com.google.common.eventbus", "com.google.common.io", "com.google.common.collect" ]
-}, {
-  "groupId" : "org.apache.curator",
-  "artifactId" : "curator-framework",
-  "version" : "2.6.0",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.curator.framework.imps", "org.apache.curator.framework.api.transaction", "org.apache.curator.framework", "org.apache.curator.framework.api", "org.apache.curator.framework.state", "org.apache.curator.framework.listen" ]
-}, {
-  "groupId" : "org.apache.curator",
-  "artifactId" : "curator-client",
-  "version" : "2.6.0",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.curator", "org.apache.curator.utils", "org.apache.curator.ensemble.fixed", "org.apache.curator.ensemble", "org.apache.curator.ensemble.exhibitor", "org.apache.curator.drivers", "org.apache.curator.retry" ]
-}, {
-  "groupId" : "org.apache.zookeeper",
-  "artifactId" : "zookeeper",
-  "version" : "3.4.6",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.zookeeper.version", "org.apache.jute", "org.apache.zookeeper.server.persistence", "org.apache.zookeeper.client", "org.apache.jute.compiler.generated", "org.apache.zookeeper", "org.apache.zookeeper.data", "org.apache.zookeeper.proto", "org.apache.zookeeper.server", "org.apache.zookeeper.version.util", "org.apache.jute.compiler", "org.apache.zookeeper.common", "org.apache.zookeeper.jmx", "org.apache.zookeeper.server.upgrade", "org.apache.zookeeper.server.quorum.flexible", "org.apache.zookeeper.server.auth", "org.apache.zookeeper.server.util", "org.apache.zookeeper.txn", "org.apache.zookeeper.server.quorum" ]
-}, {
-  "groupId" : "jline",
-  "artifactId" : "jline",
-  "version" : "0.9.94",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "jline" ]
-}, {
-  "groupId" : "org.apache.curator",
-  "artifactId" : "curator-recipes",
-  "version" : "2.6.0",
-  "scope" : "test",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.curator.framework.recipes.cache", "org.apache.curator.framework.recipes.leader", "org.apache.curator.framework.recipes.shared", "org.apache.curator.framework.recipes.locks", "org.apache.curator.framework.recipes", "org.apache.curator.framework.recipes.queue", "org.apache.curator.framework.recipes.atomic", "org.apache.curator.framework.recipes.nodes", "org.apache.curator.framework.recipes.barriers" ]
-}, {
-  "groupId" : "org.apache.curator",
-  "artifactId" : "curator-test",
-  "version" : "2.6.0",
-  "scope" : "test",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.apache.curator.test" ]
-}, {
-  "groupId" : "org.javassist",
-  "artifactId" : "javassist",
-  "version" : "3.18.1-GA",
-  "scope" : "test",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "javassist.convert", "javassist.tools", "javassist.tools.reflect", "javassist.expr", "javassist.tools.rmi", "javassist.util", "javassist.bytecode.analysis", "javassist.bytecode.annotation", "javassist.bytecode.stackmap", "javassist.util.proxy", "javassist.compiler", "javassist.runtime", "javassist.bytecode", "javassist.scopedpool", "javassist.compiler.ast", "javassist", "javassist.tools.web" ]
-}, {
-  "groupId" : "org.slf4j",
-  "artifactId" : "slf4j-log4j12",
-  "version" : "1.7.4",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "org.slf4j.impl" ]
-}, {
-  "groupId" : "org.scala-lang",
-  "artifactId" : "scala-library",
-  "version" : "2.10.0",
-  "scope" : "compile",
-  "packaging" : "jar",
-  "systemPath" : null,
-  "packages" : [ "scala.annotation.unchecked", "scala.util", "scala.util.parsing.input", "scala.collection", "scala.concurrent.forkjoin", "scala.reflect.macros.internal", "scala.collection.parallel.mutable", "scala.util.continuations", "scala.sys.process", "scala.concurrent.util", "scala.math", "scala.io", "scala.collection.script", "scala.collection.convert", "scala.parallel", "scala.testing", "scala.xml", "scala.collection.immutable", "scala.ref", "scala.util.hashing", "scala.xml.pull", "scala.xml.parsing", "scala.collection.generic", "scala.runtime", "scala.util.control", "scala.xml.factory", "scala.xml.include", "scala.annotation.target", "scala.util.parsing.combinator.token", "scala.annotation", "scala.util.matching", "scala.beans", "scala.util.parsing.json", "scala", "scala.concurrent", "scala.compat", "scala.util.logging", "scala.util.regexp", "scala.reflect", "scala.collection.concurrent", "scala.util.parsing.combinator.testing", "scala.util.parsing.combinator", "scala.xml.dtd", "scala.sys", "scala.util.parsing.ast", "scala.collection.mutable", "scala.collection.parallel", "scala.util.parsing.combinator.syntactical", "scala.collection.parallel.immutable", "scala.concurrent.duration", "scala.concurrent.impl", "scala.util.automata", "scala.annotation.meta", "scala.xml.include.sax", "scala.util.parsing.combinator.lexical", "scala.text", "scala.xml.persistent", "scala.util.grammar", "scala.xml.transform" ]
-} ]
+{
+  "repositories" : [ {
+    "id" : "central",
+    "url" : "http://central.maven.org/maven2/"
+  }, {
+    "id" : "apache-releases",
+    "url" : "https://repository.apache.org/content/groups/public"
+  } ],
+  "dependencies" : [ {
+    "groupId" : "junit",
+    "artifactId" : "junit",
+    "version" : "4.11",
+    "scope" : "test",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.junit.runners", "org.junit.experimental.theories", "org.junit.experimental", "org.junit.internal.runners.rules", "org.junit.internal.requests", "org.junit.experimental.results", "org.junit.internal.runners.model", "org.junit.internal.builders", "junit.textui", "org.junit.experimental.categories", "org.junit.experimental.theories.internal", "junit.extensions", "org.junit.internal.runners.statements", "org.junit.experimental.max", "org.junit.runner.notification", "org.junit.experimental.theories.suppliers", "org.junit.matchers", "org.junit.internal.matchers", "org.junit.runner.manipulation", "org.junit.experimental.runners", "org.junit.rules", "org.junit.runners.model", "org.junit.internal", "junit.runner", "org.junit.runner", "org.junit", "junit.framework", "org.junit.internal.runners" ]
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-core",
+    "version" : "1.3",
+    "scope" : "test",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.hamcrest.internal", "org.hamcrest.core", "org.hamcrest" ]
+  }, {
+    "groupId" : "com.googlecode.json-simple",
+    "artifactId" : "json-simple",
+    "version" : "1.1.1",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.json.simple", "org.json.simple.parser" ]
+  }, {
+    "groupId" : "org.apache.spark",
+    "artifactId" : "spark-core_2.10",
+    "version" : "1.6.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.spark-project.jetty.server.session.jmx", "org.spark-project.jetty.plus.webapp", "org.spark-project.jetty.io.nio", "org.spark-project.jetty.servlet.jmx", "org.apache.spark.shuffle", "org.apache.spark.unused", "org.apache.spark.rpc.netty", "org.spark-project.jetty.plus.jaas.spi", "org.apache.spark.deploy.master", "org.spark-project.jetty.plus.jaas", "org.apache.spark.network.netty", "org.apache.spark.api.java", "org.apache.spark.util.io", "org.apache.spark.annotation", "org.spark-project.jetty.http.ssl", "org.spark-project.jetty.security", "org.apache.spark.input", "org.apache.spark.ui", "org.spark-project.jetty.util.statistic", "org.spark-project.jetty.util.thread", "org.apache.spark.deploy.rest", "org.spark-project.jetty.util", "org.spark-project.jetty.plus.jndi", "org.apache.spark.network", "org.apache.spark.launcher", "org.apache.spark.deploy.worker", "org.apache.spark.ui.jobs", "org.apache.spark.metrics.source", "org.apache.spark.deploy.client", "org.apache.spark.deploy.worker.ui", "org.spark-project.jetty.server.jmx", "org.apache.spark.mapred", "org.apache.spark.ui.scope", "org.apache.spark.util", "org.spark-project.jetty.http.gzip", "org.spark-project.jetty.plus.jaas.callback", "org.apache.spark.unsafe.map", "org.spark-project.jetty.io", "org.apache.spark.metrics", "org.apache.spark.scheduler.cluster", "org.apache.spark.deploy.mesos.ui", "org.spark-project.jetty.plus.servlet", "org.apache.spark.rpc.akka", "org.spark-project.jetty.util.ssl", "org.apache.spark.ui.exec", "org.apache.spark.api.r", "org.apache.spark.shuffle.hash", "org.apache.spark.ui.env", "org.spark-project.jetty.security.authentication", "org.spark-project.jetty.io.bio", "org.spark-project.jetty.continuation", "org.apache.spark.util.collection", "org.apache.spark.api.java.function", "org.apache.spark.util.collection.unsafe.sort", "org.spark-project.jetty.util.ajax", "org.apache.spark.scheduler.local", "org.spark-project.jetty.util.security", "org.spark-project.jetty.util.preventers", "org.apache.spark.io", "org.spark-project.jetty.util.log", "org.apache.spark.memory", "org.apache.spark.ui.storage", "org.spark-project.jetty.server", "org.apache.spark.rpc", "org.spark-project.jetty.servlet", "org.apache.spark.deploy.master.ui", "org.spark-project.jetty.http", "org.spark-project.jetty.server.handler.jmx", "org.apache.spark.broadcast", "org.apache.spark.scheduler", "org.apache.spark.deploy.rest.mesos", "org.apache.spark.mapreduce", "org.apache.spark.serializer", "org.apache.spark", "org.apache.spark.deploy", "org.spark-project.jetty.server.handler", "org.spark-project.jetty.server.nio", "org.apache.spark.util.logging", "org.apache.spark.deploy.history", "org.spark-project.jetty.plus.security", "org.spark-project.jetty.server.ssl", "org.spark-project.jetty.server.session", "org.apache.spark.scheduler.cluster.mesos", "org.spark-project.jetty.plus.annotation", "org.apache.spark.storage", "org.apache.spark.partial", "org.apache.spark.rdd", "org.apache.spark.util.random", "org.apache.spark.metrics.sink", "org.apache.spark.executor", "org.apache.spark.deploy.mesos", "org.spark-project.jetty.util.resource", "org.apache.spark.shuffle.sort", "org.spark-project.jetty.server.bio", "org.spark-project.jetty.servlet.listener", "org.apache.spark.api.python", "org.apache.spark.status.api.v1", "org.spark-project.jetty.util.component" ]
+  }, {
+    "groupId" : "org.apache.avro",
+    "artifactId" : "avro-mapred",
+    "version" : "hadoop2",
+    "scope" : "1.7.7",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : null
+  }, {
+    "groupId" : "org.apache.avro",
+    "artifactId" : "avro-ipc",
+    "version" : "1.7.7",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.avro.ipc.stats", "org.apache.avro.ipc", "org.apache.avro.ipc.generic", "org.apache.avro.ipc.reflect", "org.apache.avro.ipc.specific", "org.apache.avro.ipc.trace" ]
+  }, {
+    "groupId" : "org.apache.avro",
+    "artifactId" : "avro",
+    "version" : "1.7.7",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.avro.io", "org.apache.avro.reflect", "org.apache.avro.data", "org.apache.avro.util", "org.apache.avro", "org.apache.avro.file", "org.apache.avro.io.parsing", "org.apache.avro.specific", "org.apache.avro.generic" ]
+  }, {
+    "groupId" : "org.apache.avro",
+    "artifactId" : "avro-ipc",
+    "version" : "tests",
+    "scope" : "1.7.7",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : null
+  }, {
+    "groupId" : "org.codehaus.jackson",
+    "artifactId" : "jackson-core-asl",
+    "version" : "1.9.13",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.codehaus.jackson.impl", "org.codehaus.jackson.io", "org.codehaus.jackson.type", "org.codehaus.jackson", "org.codehaus.jackson.format", "org.codehaus.jackson.sym", "org.codehaus.jackson.annotate", "org.codehaus.jackson.util" ]
+  }, {
+    "groupId" : "org.codehaus.jackson",
+    "artifactId" : "jackson-mapper-asl",
+    "version" : "1.9.13",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.codehaus.jackson.map.deser.impl", "org.codehaus.jackson.map.introspect", "org.codehaus.jackson.map.deser.std", "org.codehaus.jackson.map", "org.codehaus.jackson.map.type", "org.codehaus.jackson.map.annotate", "org.codehaus.jackson.map.ser", "org.codehaus.jackson.map.jsontype", "org.codehaus.jackson.map.ext", "org.codehaus.jackson.map.util", "org.codehaus.jackson.map.ser.impl", "org.codehaus.jackson.node", "org.codehaus.jackson.map.jsontype.impl", "org.codehaus.jackson.map.ser.std", "org.codehaus.jackson.schema", "org.codehaus.jackson.map.deser", "org.codehaus.jackson.map.exc", "org.codehaus.jackson.map.module" ]
+  }, {
+    "groupId" : "com.twitter",
+    "artifactId" : "chill_2.10",
+    "version" : "0.5.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.twitter.chill.config", "com.twitter.chill" ]
+  }, {
+    "groupId" : "com.esotericsoftware.kryo",
+    "artifactId" : "kryo",
+    "version" : "2.21",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.esotericsoftware.kryo.util", "org.objenesis", "com.esotericsoftware.reflectasm", "com.esotericsoftware.reflectasm.shaded.org.objectweb.asm", "org.objenesis.instantiator", "com.esotericsoftware.kryo.serializers", "org.objenesis.instantiator.sun", "com.esotericsoftware.minlog", "org.objenesis.instantiator.basic", "org.objenesis.instantiator.gcj", "org.objenesis.instantiator.perc", "com.esotericsoftware.kryo", "org.objenesis.strategy", "org.objenesis.instantiator.jrockit", "com.esotericsoftware.kryo.io" ]
+  }, {
+    "groupId" : "com.esotericsoftware.reflectasm",
+    "artifactId" : "reflectasm",
+    "version" : "shaded",
+    "scope" : "1.07",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : null
+  }, {
+    "groupId" : "com.esotericsoftware.minlog",
+    "artifactId" : "minlog",
+    "version" : "1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.esotericsoftware.minlog" ]
+  }, {
+    "groupId" : "org.objenesis",
+    "artifactId" : "objenesis",
+    "version" : "1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.objenesis", "org.objenesis.instantiator", "org.objenesis.strategy", "org.objenesis.instantiator.jrockit", "org.objenesis.instantiator.sun", "org.objenesis.instantiator.basic", "org.objenesis.instantiator.gcj", "org.objenesis.instantiator.perc" ]
+  }, {
+    "groupId" : "com.twitter",
+    "artifactId" : "chill-java",
+    "version" : "0.5.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.twitter.chill.config", "com.twitter.chill", "com.twitter.chill.java" ]
+  }, {
+    "groupId" : "org.apache.xbean",
+    "artifactId" : "xbean-asm5-shaded",
+    "version" : "4.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.xbean.asm5", "org.apache.xbean.asm5.commons", "org.apache.xbean.asm5.shade.commons", "org.apache.xbean.asm5.signature", "org.apache.xbean.asm5.tree" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-client",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-common",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.fs.viewfs", "org.apache.hadoop.metrics.ganglia", "org.apache.hadoop.io.serializer", "org.apache.hadoop.metrics2", "org.apache.hadoop.fs.local", "org.apache.hadoop.log.metrics", "org.apache.hadoop.security", "org.apache.hadoop.fs.s3", "org.apache.hadoop", "org.apache.hadoop.metrics2.impl", "org.apache.hadoop.io.file.tfile", "org.apache.hadoop.fs.shell", "org.apache.hadoop.io.nativeio", "org.apache.hadoop.ha", "org.apache.hadoop.fs.ftp", "org.apache.hadoop.io.serializer.avro", "org.apache.hadoop.io.retry", "org.apache.hadoop.tools.protocolPB", "org.apache.hadoop.security.token", "org.apache.hadoop.io", "org.apache.hadoop.metrics2.source", "org.apache.hadoop.service", "org.apache.hadoop.ha.proto", "org.apache.hadoop.io.compress", "org.apache.hadoop.util.hash", "org.apache.hadoop.metrics2.sink.ganglia", "org.apache.hadoop.net", "org.apache.hadoop.ipc", "org.apache.hadoop.util.bloom", "org.apache.hadoop.security.ssl", "org.apache.hadoop.io.compress.zlib", "org.apache.hadoop.record.meta", "org.apache.hadoop.record.compiler.ant", "org.apache.hadoop.metrics2.lib", "org.apache.hadoop.jmx", "org.apache.hadoop.metrics.spi", "org.apache.hadoop.ha.protocolPB", "org.apache.hadoop.security.proto", "org.apache.hadoop.ipc.metrics", "org.apache.hadoop.metrics2.util", "org.apache.hadoop.metrics.jvm", "org.apache.hadoop.metrics", "org.apache.hadoop.metrics.util", "org.apache.hadoop.security.protocolPB", "org.apache.hadoop.tools", "org.apache.hadoop.log", "org.apache.hadoop.fs.s3native", "org.apache.hadoop.http", "org.apache.hadoop.security.token.delegation", "org.apache.hadoop.util", "org.apache.hadoop.record.compiler.generated", "org.apache.hadoop.io.compress.snappy", "org.apache.hadoop.metrics2.sink", "org.apache.hadoop.net.unix", "org.apache.hadoop.metrics2.annotation", "org.apache.hadoop.security.authorize", "org.apache.hadoop.ipc.protobuf", "org.apache.hadoop.io.compress.lz4", "org.apache.hadoop.io.compress.bzip2", "org.apache.hadoop.record.compiler", "org.apache.hadoop.tools.proto", "org.apache.hadoop.conf", "org.apache.hadoop.fs.permission", "org.apache.hadoop.record", "org.apache.hadoop.metrics2.filter", "org.apache.hadoop.http.lib", "org.apache.hadoop.fs", "org.apache.hadoop.metrics.file" ]
+  }, {
+    "groupId" : "xmlenc",
+    "artifactId" : "xmlenc",
+    "version" : "0.52",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.znerd.xmlenc", "org.znerd.xmlenc.sax" ]
+  }, {
+    "groupId" : "commons-configuration",
+    "artifactId" : "commons-configuration",
+    "version" : "1.6",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.configuration.plist", "org.apache.commons.configuration.web", "org.apache.commons.configuration.event", "org.apache.commons.configuration.tree.xpath", "org.apache.commons.configuration.interpol", "org.apache.commons.configuration.reloading", "org.apache.commons.configuration.tree", "org.apache.commons.configuration", "org.apache.commons.configuration.beanutils" ]
+  }, {
+    "groupId" : "commons-collections",
+    "artifactId" : "commons-collections",
+    "version" : "3.2.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.collections", "org.apache.commons.collections.functors", "org.apache.commons.collections.comparators", "org.apache.commons.collections.list", "org.apache.commons.collections.bidimap", "org.apache.commons.collections.keyvalue", "org.apache.commons.collections.set", "org.apache.commons.collections.bag", "org.apache.commons.collections.collection", "org.apache.commons.collections.buffer", "org.apache.commons.collections.map", "org.apache.commons.collections.iterators" ]
+  }, {
+    "groupId" : "commons-digester",
+    "artifactId" : "commons-digester",
+    "version" : "1.8",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.digester", "org.apache.commons.digester.plugins", "org.apache.commons.digester.xmlrules", "org.apache.commons.digester.plugins.strategies", "org.apache.commons.digester.parser", "org.apache.commons.digester.substitution" ]
+  }, {
+    "groupId" : "commons-beanutils",
+    "artifactId" : "commons-beanutils",
+    "version" : "1.7.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.beanutils", "org.apache.commons.collections", "org.apache.commons.beanutils.locale", "org.apache.commons.beanutils.locale.converters", "org.apache.commons.beanutils.converters" ]
+  }, {
+    "groupId" : "commons-beanutils",
+    "artifactId" : "commons-beanutils-core",
+    "version" : "1.8.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.beanutils", "org.apache.commons.collections", "org.apache.commons.beanutils.locale", "org.apache.commons.beanutils.locale.converters", "org.apache.commons.beanutils.expression", "org.apache.commons.beanutils.converters" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-auth",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.security.authentication.util", "org.apache.hadoop.security.authentication.server", "org.apache.hadoop.security.authentication.client", "org.apache.hadoop.util" ]
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-compress",
+    "version" : "1.4.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.compress.compressors", "org.apache.commons.compress.compressors.pack200", "org.apache.commons.compress.archivers.dump", "org.apache.commons.compress.archivers.cpio", "org.apache.commons.compress.archivers.tar", "org.apache.commons.compress.archivers.zip", "org.apache.commons.compress.archivers.jar", "org.apache.commons.compress.compressors.bzip2", "org.apache.commons.compress.archivers", "org.apache.commons.compress.compressors.xz", "org.apache.commons.compress.changes", "org.apache.commons.compress.utils", "org.apache.commons.compress.archivers.ar", "org.apache.commons.compress.compressors.gzip" ]
+  }, {
+    "groupId" : "org.tukaani",
+    "artifactId" : "xz",
+    "version" : "1.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.tukaani.xz.lz", "org.tukaani.xz.common", "org.tukaani.xz.index", "org.tukaani.xz", "org.tukaani.xz.simple", "org.tukaani.xz.rangecoder", "org.tukaani.xz.check", "org.tukaani.xz.lzma", "org.tukaani.xz.delta" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-hdfs",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.hdfs.tools.offlineImageViewer", "org.apache.hadoop.hdfs.server.namenode.metrics", "org.apache.hadoop.hdfs.server.blockmanagement", "org.apache.hadoop.hdfs.protocol.datatransfer", "org.apache.hadoop.hdfs.client", "org.apache.hadoop.hdfs.security.token.block", "org.apache.hadoop.hdfs.server.namenode.ha.proto", "org.apache.hadoop.hdfs.protocol.proto", "org.apache.hadoop.hdfs.tools.snapshot", "org.apache.hadoop.hdfs.server.datanode.fsdataset", "org.apache.hadoop.hdfs.server.namenode.web.resources", "org.apache.hadoop.hdfs.tools.offlineEditsViewer", "org.apache.hadoop.hdfs.server.namenode.ha", "org.apache.hadoop.hdfs.protocol", "org.apache.hadoop.hdfs.server.datanode.metrics", "org.apache.hadoop.hdfs.web.resources", "org.apache.hadoop.hdfs.qjournal.client", "org.apache.hadoop.hdfs.server.namenode.snapshot", "org.apache.hadoop.hdfs", "org.apache.hadoop.hdfs.protocolPB", "org.apache.hadoop.hdfs.net", "org.apache.hadoop.hdfs.server.protocol", "org.apache.hadoop.hdfs.server.journalservice", "org.apache.hadoop.hdfs.server.namenode", "org.apache.hadoop.hdfs.web", "org.apache.hadoop.hdfs.server.datanode.fsdataset.impl", "org.apache.hadoop.hdfs.server.namenode.startupprogress", "org.apache.hadoop.hdfs.security.token.delegation", "org.apache.hadoop.hdfs.tools", "org.apache.hadoop.hdfs.qjournal.protocolPB", "org.apache.hadoop.hdfs.qjournal.server", "org.apache.hadoop.hdfs.util", "org.apache.hadoop.hdfs.server.datanode.web.resources", "org.apache.hadoop.hdfs.server.datanode", "org.apache.hadoop.hdfs.qjournal.protocol", "org.apache.hadoop.hdfs.server.common", "org.apache.hadoop.fs", "org.apache.hadoop.hdfs.server.balancer" ]
+  }, {
+    "groupId" : "org.mortbay.jetty",
+    "artifactId" : "jetty-util",
+    "version" : "6.1.26",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.mortbay.servlet", "org.mortbay.util.ajax", "org.mortbay.component", "org.mortbay.thread", "org.mortbay.util", "org.mortbay.log" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-mapreduce-client-app",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.mapreduce.v2.app.security.authorize", "org.apache.hadoop.mapreduce.v2.app.commit", "org.apache.hadoop.mapred", "org.apache.hadoop.mapreduce.v2.app.webapp.dao", "org.apache.hadoop.mapreduce.v2.app.job.event", "org.apache.hadoop.mapreduce.v2.app.webapp", "org.apache.hadoop.mapreduce.v2.app.speculate", "org.apache.hadoop.mapreduce.v2.app.client", "org.apache.hadoop", "org.apache.hadoop.mapreduce.v2.app.job.impl", "org.apache.hadoop.mapreduce.v2.app.local", "org.apache.hadoop.mapreduce.jobhistory", "org.apache.hadoop.mapreduce.v2.app.rm", "org.apache.hadoop.mapreduce.v2.app.metrics", "org.apache.hadoop.mapreduce.v2.app", "org.apache.hadoop.mapreduce.v2.app.job", "org.apache.hadoop.mapreduce.v2.app.launcher" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-mapreduce-client-common",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.mapreduce.v2.security.client", "org.apache.hadoop.mapred", "org.apache.hadoop.mapreduce.v2.api.records.impl.pb", "org.apache.hadoop.mapreduce.v2.api.protocolrecords", "org.apache.hadoop.mapreduce.v2.api.protocolrecords.impl.pb", "org.apache.hadoop.mapreduce.v2.api.impl.pb.service", "org.apache.hadoop.mapreduce.v2.api.impl.pb.client", "org.apache.hadoop.mapreduce.v2.util", "org.apache.hadoop.mapreduce.v2.api", "org.apache.hadoop.yarn.proto", "org.apache.hadoop.mapreduce", "org.apache.hadoop.mapreduce.v2.proto", "org.apache.hadoop.mapreduce.v2.security", "org.apache.hadoop.mapreduce.v2.jobhistory", "org.apache.hadoop.mapreduce.v2.api.records" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-yarn-client",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.yarn.client.api", "org.apache.hadoop.yarn.client.api.impl", "org.apache.hadoop.yarn.client.api.async", "org.apache.hadoop.yarn.client.api.async.impl", "org.apache.hadoop.yarn.client.cli", "org.apache.hadoop.yarn.client" ]
+  }, {
+    "groupId" : "com.google.inject",
+    "artifactId" : "guice",
+    "version" : "3.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.google.inject.internal.cglib.core", "com.google.inject.internal.util", "com.google.inject", "com.google.inject.internal.cglib.proxy", "com.google.inject.spi", "com.google.inject.matcher", "com.google.inject.internal.asm", "com.google.inject.internal", "com.google.inject.util", "com.google.inject.binder", "com.google.inject.internal.cglib.reflect", "com.google.inject.name" ]
+  }, {
+    "groupId" : "javax.inject",
+    "artifactId" : "javax.inject",
+    "version" : "1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javax.inject" ]
+  }, {
+    "groupId" : "aopalliance",
+    "artifactId" : "aopalliance",
+    "version" : "1.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.aopalliance.aop", "org.aopalliance.intercept" ]
+  }, {
+    "groupId" : "com.sun.jersey.jersey-test-framework",
+    "artifactId" : "jersey-test-framework-grizzly2",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.test.framework.spi.container.grizzly2.web", "com.sun.jersey.test.framework.spi.container.grizzly2" ]
+  }, {
+    "groupId" : "com.sun.jersey.jersey-test-framework",
+    "artifactId" : "jersey-test-framework-core",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.test.framework", "com.sun.jersey.test.framework.spi.container", "com.sun.jersey.test.framework.web.jaxb.types", "com.sun.jersey.test.framework.spi.client", "com.sun.jersey.test.framework.web.jaxb" ]
+  }, {
+    "groupId" : "javax.servlet",
+    "artifactId" : "javax.servlet-api",
+    "version" : "3.0.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javax.servlet", "javax.servlet.annotation", "javax.servlet.http", "javax.servlet.descriptor" ]
+  }, {
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-client",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.client.urlconnection", "com.sun.jersey.client.proxy", "com.sun.jersey.api.client.config", "com.sun.ws.rs.ext", "com.sun.jersey.client.osgi", "com.sun.jersey.api.client.filter", "com.sun.jersey.api.client", "com.sun.jersey.client.impl", "com.sun.jersey.api.client.async", "com.sun.jersey.client.impl.async" ]
+  }, {
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-grizzly2",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.api.container.grizzly2", "com.sun.jersey.server.impl.container.grizzly2" ]
+  }, {
+    "groupId" : "org.glassfish.grizzly",
+    "artifactId" : "grizzly-http",
+    "version" : "2.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.grizzly.http", "org.glassfish.grizzly.http.util", "org.glassfish.grizzly.http.jmx" ]
+  }, {
+    "groupId" : "org.glassfish.grizzly",
+    "artifactId" : "grizzly-framework",
+    "version" : "2.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.grizzly.compression.lzma.impl", "org.glassfish.grizzly.monitoring", "org.glassfish.grizzly.strategies", "org.glassfish.grizzly.memory.jmx", "org.glassfish.grizzly.attributes", "org.glassfish.grizzly.impl", "org.glassfish.grizzly.filterchain", "org.glassfish.grizzly.compression.lzma.impl.lz", "org.glassfish.grizzly.utils.conditions", "org.glassfish.grizzly.memory", "org.glassfish.grizzly.nio.transport.jmx", "org.glassfish.grizzly.threadpool.jmx", "org.glassfish.grizzly", "org.glassfish.grizzly.asyncqueue", "org.glassfish.grizzly.localization", "org.glassfish.grizzly.utils", "org.glassfish.grizzly.nio", "org.glassfish.grizzly.streams", "org.glassfish.grizzly.compression.lzma", "org.glassfish.grizzly.nio.transport", "org.glassfish.grizzly.nio.tmpselectors", "org.glassfish.grizzly.compression.lzma.impl.rangecoder", "org.glassfish.grizzly.monitoring.jmx", "org.glassfish.grizzly.ssl", "org.glassfish.grizzly.compression.zip", "org.glassfish.grizzly.threadpool" ]
+  }, {
+    "groupId" : "org.glassfish.gmbal",
+    "artifactId" : "gmbal-api-only",
+    "version" : "3.0.0-b023",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.gmbal.util", "org.glassfish.gmbal" ]
+  }, {
+    "groupId" : "org.glassfish.external",
+    "artifactId" : "management-api",
+    "version" : "3.0.0-b012",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.external.amx", "org.glassfish.external.statistics", "org.glassfish.external.probe.provider.annotations", "org.glassfish.external.probe.provider", "org.glassfish.external.statistics.annotations", "org.glassfish.external.arc", "org.glassfish.external.statistics.impl" ]
+  }, {
+    "groupId" : "org.glassfish.grizzly",
+    "artifactId" : "grizzly-http-server",
+    "version" : "2.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.grizzly.http.server.filecache", "org.glassfish.grizzly.http.server.util", "org.glassfish.grizzly.http.server.jmx", "org.glassfish.grizzly.http.server.filecache.jmx", "org.glassfish.grizzly.http.server", "org.glassfish.grizzly.http.server.io" ]
+  }, {
+    "groupId" : "org.glassfish.grizzly",
+    "artifactId" : "grizzly-rcm",
+    "version" : "2.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.grizzly.rcm" ]
+  }, {
+    "groupId" : "org.glassfish.grizzly",
+    "artifactId" : "grizzly-http-servlet",
+    "version" : "2.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.grizzly.servlet.ver30", "org.glassfish.grizzly.servlet", "org.glassfish.grizzly.servlet.ver25" ]
+  }, {
+    "groupId" : "org.glassfish",
+    "artifactId" : "javax.servlet",
+    "version" : "3.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javax.servlet", "javax.servlet.annotation", "javax.servlet.http", "javax.servlet.descriptor" ]
+  }, {
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-json",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.json.impl", "com.sun.jersey.api.json", "com.sun.jersey.json.impl.provider.entity", "com.sun.jersey.json.impl.writer", "com.sun.jersey.json.impl.reader" ]
+  }, {
+    "groupId" : "org.codehaus.jettison",
+    "artifactId" : "jettison",
+    "version" : "1.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.codehaus.jettison.json", "org.codehaus.jettison.badgerfish", "org.codehaus.jettison.mapped", "org.codehaus.jettison", "org.codehaus.jettison.util" ]
+  }, {
+    "groupId" : "stax",
+    "artifactId" : "stax-api",
+    "version" : "1.0.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javax.xml", "javax.xml.namespace", "javax.xml.stream", "javax.xml.stream.util", "javax.xml.stream.events" ]
+  }, {
+    "groupId" : "com.sun.xml.bind",
+    "artifactId" : "jaxb-impl",
+    "version" : "2.2.3-1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.xml.bind.v2.model.runtime", "com.sun.xml.txw2.output", "com.sun.istack", "com.sun.xml.bind.marshaller", "com.sun.xml.bind.unmarshaller", "com.sun.xml.bind.v2.model.impl", "com.sun.xml.bind.v2", "com.sun.xml.bind.v2.runtime", "com.sun.xml.bind.v2.model.core", "com.sun.xml.bind.annotation", "com.sun.xml.bind.v2.runtime.reflect.opt", "com.sun.xml.txw2", "com.sun.xml.bind.api", "com.sun.xml.txw2.annotation", "com.sun.xml.bind.v2.model.annotation", "com.sun.xml.bind.v2.schemagen.episode", "com.sun.xml.bind.v2.util", "com.sun.xml.bind.v2.bytecode", "com.sun.xml.bind.v2.runtime.property", "com.sun.istack.localization", "com.sun.xml.bind.v2.model.nav", "com.sun.xml.bind.api.impl", "com.sun.xml.bind.util", "com.sun.xml.bind", "com.sun.xml.bind.v2.runtime.reflect", "com.sun.istack.logging", "com.sun.xml.bind.v2.schemagen", "com.sun.xml.bind.v2.runtime.unmarshaller", "com.sun.xml.bind.v2.schemagen.xmlschema", "com.sun.xml.bind.v2.runtime.output" ]
+  }, {
+    "groupId" : "javax.xml.bind",
+    "artifactId" : "jaxb-api",
+    "version" : "2.2.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javax.xml.bind.annotation", "javax.xml.bind.annotation.adapters", "javax.xml.bind.helpers", "javax.xml.bind.util", "javax.xml.bind.attachment", "javax.xml.bind" ]
+  }, {
+    "groupId" : "javax.activation",
+    "artifactId" : "activation",
+    "version" : "1.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.activation.registries", "com.sun.activation.viewers", "javax.activation" ]
+  }, {
+    "groupId" : "org.codehaus.jackson",
+    "artifactId" : "jackson-jaxrs",
+    "version" : "1.8.3",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.codehaus.jackson.jaxrs" ]
+  }, {
+    "groupId" : "org.codehaus.jackson",
+    "artifactId" : "jackson-xc",
+    "version" : "1.8.3",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.codehaus.jackson.xc" ]
+  }, {
+    "groupId" : "com.sun.jersey.contribs",
+    "artifactId" : "jersey-guice",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.guice.spi.container", "com.sun.jersey.guice.spi.container.servlet", "com.sun.jersey.guice" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-yarn-server-common",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.yarn.server.utils", "org.apache.hadoop.yarn.server.api.protocolrecords.impl.pb", "org.apache.hadoop.yarn.proto", "org.apache.hadoop.yarn.server.security", "org.apache.hadoop.yarn.server.api.records", "org.apache.hadoop.yarn.server", "org.apache.hadoop.yarn.server.api.impl.pb.service", "org.apache.hadoop.yarn.server.api.protocolrecords", "org.apache.hadoop.yarn.server.api", "org.apache.hadoop.yarn.server.api.records.impl.pb", "org.apache.hadoop.yarn.lib", "org.apache.hadoop.yarn.server.api.impl.pb.client" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-mapreduce-client-shuffle",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.mapred" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-yarn-api",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.yarn.api", "org.apache.hadoop.yarn.proto", "org.apache.hadoop.yarn.factory.providers", "org.apache.hadoop.yarn.util", "org.apache.hadoop.yarn.exceptions", "org.apache.hadoop.yarn.api.records", "org.apache.hadoop.yarn.server.api.protocolrecords", "org.apache.hadoop.yarn.conf", "org.apache.hadoop.yarn.server.api", "org.apache.hadoop.yarn.api.protocolrecords", "org.apache.hadoop.yarn.factories" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-mapreduce-client-core",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.mapreduce.security.token.delegation", "org.apache.hadoop.mapreduce.lib.output", "org.apache.hadoop.mapred.lib", "org.apache.hadoop.mapreduce.protocol", "org.apache.hadoop.mapreduce.filecache", "org.apache.hadoop.mapreduce.lib.map", "org.apache.hadoop.mapred.join", "org.apache.hadoop.mapreduce", "org.apache.hadoop.mapreduce.task.reduce", "org.apache.hadoop.mapreduce.jobhistory", "org.apache.hadoop.mapred.jobcontrol", "org.apache.hadoop.mapreduce.v2", "org.apache.hadoop.mapreduce.lib.fieldsel", "org.apache.hadoop.mapreduce.lib.join", "org.apache.hadoop.mapreduce.lib.chain", "org.apache.hadoop.mapreduce.lib.jobcontrol", "org.apache.hadoop.mapred.lib.aggregate", "org.apache.hadoop.mapreduce.util", "org.apache.hadoop.mapreduce.lib.db", "org.apache.hadoop.mapreduce.security", "org.apache.hadoop.mapreduce.task", "org.apache.hadoop.mapreduce.lib.aggregate", "org.apache.hadoop.mapred", "org.apache.hadoop.mapreduce.tools", "org.apache.hadoop.mapred.pipes", "org.apache.hadoop.mapreduce.counters", "org.apache.hadoop.mapreduce.lib.reduce", "org.apache.hadoop.filecache", "org.apache.hadoop.mapreduce.split", "org.apache.hadoop.mapreduce.task.annotation", "org.apache.hadoop.mapred.lib.db", "org.apache.hadoop.mapreduce.server.tasktracker", "org.apache.hadoop.mapreduce.server.jobtracker", "org.apache.hadoop.mapreduce.security.token", "org.apache.hadoop.mapreduce.lib.partition", "org.apache.hadoop.mapreduce.lib.input" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-yarn-common",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.yarn.api.protocolrecords.impl.pb", "org.apache.hadoop.yarn.factory.providers", "org.apache.hadoop.yarn.server.api.impl.pb.service", "org.apache.hadoop.yarn.webapp.example", "org.apache.hadoop.yarn.api.impl.pb.service", "org.apache.hadoop.yarn.api.impl.pb.client", "org.apache.hadoop.yarn.event", "org.apache.hadoop.yarn.security.admin", "org.apache.hadoop.yarn.security.client", "org.apache.hadoop.yarn.server.api.protocolrecords.impl.pb", "org.apache.hadoop.yarn", "org.apache.hadoop.yarn.api.records.impl.pb", "org.apache.hadoop.yarn.util.resource", "org.apache.hadoop.yarn.security", "org.apache.hadoop.yarn.webapp.view", "org.apache.hadoop.yarn.factories.impl.pb", "org.apache.hadoop.yarn.api", "org.apache.hadoop.yarn.webapp.log", "org.apache.hadoop.yarn.ipc", "org.apache.hadoop.yarn.server.api.impl.pb.client", "org.apache.hadoop.yarn.util", "org.apache.hadoop.yarn.server.security", "org.apache.hadoop.yarn.state", "org.apache.hadoop.yarn.server.api", "org.apache.hadoop.yarn.webapp.hamlet", "org.apache.hadoop.yarn.webapp", "org.apache.hadoop.yarn.logaggregation", "org.apache.hadoop.yarn.webapp.util", "org.apache.hadoop.yarn.factories", "org.apache.hadoop.yarn.client" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-mapreduce-client-jobclient",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.mapred" ]
+  }, {
+    "groupId" : "org.apache.hadoop",
+    "artifactId" : "hadoop-annotations",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.hadoop.classification", "org.apache.hadoop.classification.tools" ]
+  }, {
+    "groupId" : "org.apache.spark",
+    "artifactId" : "spark-launcher_2.10",
+    "version" : "1.6.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.spark.launcher", "org.apache.spark.unused" ]
+  }, {
+    "groupId" : "org.apache.spark",
+    "artifactId" : "spark-network-common_2.10",
+    "version" : "1.6.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.spark.network.server", "org.spark-project.guava.eventbus", "org.spark-project.guava.net", "org.apache.spark.network.buffer", "com.google.common.base", "org.spark-project.guava.base", "org.spark-project.guava.util.concurrent", "org.spark-project.guava.reflect", "org.apache.spark.unused", "org.apache.spark.network.client", "org.spark-project.guava.collect", "org.apache.spark.network.protocol", "org.spark-project.guava.primitives", "org.spark-project.guava.cache", "org.spark-project.guava.hash", "org.apache.spark.network", "org.spark-project.guava.annotations", "org.spark-project.guava.base.internal", "org.spark-project.guava.io", "org.apache.spark.network.util", "org.apache.spark.network.sasl", "org.spark-project.guava.math" ]
+  }, {
+    "groupId" : "org.apache.spark",
+    "artifactId" : "spark-network-shuffle_2.10",
+    "version" : "1.6.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.spark.network.shuffle", "org.apache.spark.network.shuffle.protocol.mesos", "org.apache.spark.unused", "org.apache.spark.network.shuffle.protocol", "org.apache.spark.network.shuffle.mesos", "org.apache.spark.network.sasl" ]
+  }, {
+    "groupId" : "org.fusesource.leveldbjni",
+    "artifactId" : "leveldbjni-all",
+    "version" : "1.8",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.iq80.leveldb", "org.fusesource.leveldbjni", "org.fusesource.hawtjni.runtime", "org.fusesource.leveldbjni.internal" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-annotations",
+    "version" : "2.4.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.annotation" ]
+  }, {
+    "groupId" : "org.apache.spark",
+    "artifactId" : "spark-unsafe_2.10",
+    "version" : "1.6.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.spark.unsafe.bitset", "org.apache.spark.unsafe.types", "org.apache.spark.unsafe.array", "org.apache.spark.unsafe.hash", "org.apache.spark.unused", "org.apache.spark.unsafe", "org.apache.spark.unsafe.memory" ]
+  }, {
+    "groupId" : "net.java.dev.jets3t",
+    "artifactId" : "jets3t",
+    "version" : "0.7.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.jets3t.service.impl.soap.axis._2006_03_01", "org.jets3t.service.utils", "org.jets3t.service.impl.soap.axis", "org.jets3t.service.impl.rest", "org.jets3t.service.security", "org.jets3t.service.acl", "org.jets3t.service.utils.gatekeeper", "org.jets3t.service.multithread", "org.jets3t.service", "org.jets3t.service.io", "org.apache.commons.httpclient.contrib.proxy", "org.jets3t.service.impl.rest.httpclient", "org.jets3t.service.mx", "org.jets3t.service.utils.signedurl", "contribs.mx", "org.jets3t.service.model", "org.jets3t.service.model.cloudfront" ]
+  }, {
+    "groupId" : "commons-codec",
+    "artifactId" : "commons-codec",
+    "version" : "1.3",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.codec.net", "org.apache.commons.codec.binary", "org.apache.commons.codec", "org.apache.commons.codec.language", "org.apache.commons.codec.digest" ]
+  }, {
+    "groupId" : "commons-httpclient",
+    "artifactId" : "commons-httpclient",
+    "version" : "3.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.httpclient.protocol", "org.apache.commons.httpclient.methods", "org.apache.commons.httpclient.params", "org.apache.commons.httpclient.auth", "org.apache.commons.httpclient.util", "org.apache.commons.httpclient.cookie", "org.apache.commons.httpclient.methods.multipart", "org.apache.commons.httpclient" ]
+  }, {
+    "groupId" : "org.eclipse.jetty.orbit",
+    "artifactId" : "javax.servlet",
+    "version" : "3.0.0.v201112011016",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javax.servlet", "javax.servlet.annotation", "javax.servlet.http", "javax.servlet.descriptor" ]
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-lang3",
+    "version" : "3.3.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.lang3.builder", "org.apache.commons.lang3", "org.apache.commons.lang3.exception", "org.apache.commons.lang3.text", "org.apache.commons.lang3.text.translate", "org.apache.commons.lang3.time", "org.apache.commons.lang3.reflect", "org.apache.commons.lang3.event", "org.apache.commons.lang3.concurrent", "org.apache.commons.lang3.tuple", "org.apache.commons.lang3.mutable", "org.apache.commons.lang3.math" ]
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-math3",
+    "version" : "3.4.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.math3.geometry.partitioning.utilities", "org.apache.commons.math3.geometry.spherical.oned", "org.apache.commons.math3.optim.nonlinear.vector.jacobian", "org.apache.commons.math3.exception", "org.apache.commons.math3.ml.neuralnet.twod", "org.apache.commons.math3.optim.nonlinear.vector", "org.apache.commons.math3.geometry.partitioning", "org.apache.commons.math3.ml.neuralnet", "org.apache.commons.math3.ml.neuralnet.sofm.util", "org.apache.commons.math3.geometry.euclidean.threed", "org.apache.commons.math3.special", "org.apache.commons.math3.stat.correlation", "org.apache.commons.math3.fraction", "org.apache.commons.math3.optim.nonlinear.scalar.noderiv", "org.apache.commons.math3.ml.distance", "org.apache.commons.math3", "org.apache.commons.math3.analysis.function", "org.apache.commons.math3.ode.nonstiff", "org.apache.commons.math3.fitting.leastsquares", "org.apache.commons.math3.exception.util", "org.apache.commons.math3.genetics", "org.apache.commons.math3.random", "org.apache.commons.math3.dfp", "org.apache.commons.math3.optimization.direct", "org.apache.commons.math3.stat.descriptive.rank", "org.apache.commons.math3.analysis.integration.gauss", "org.apache.commons.math3.filter", "org.apache.commons.math3.ml.clustering.evaluation", "org.apache.commons.math3.optimization.fitting", "org.apache.commons.math3.distribution.fitting", "org.apache.commons.math3.ml.neuralnet.oned", "org.apache.commons.math3.ml.neuralnet.sofm", "org.apache.commons.math3.stat.ranking", "org.apache.commons.math3.stat.descriptive.summary", "org.apache.commons.math3.ode", "org.apache.commons.math3.primes", "org.apache.commons.math3.ode.events", "org.apache.commons.math3.optim.nonlinear.scalar.gradient", "org.apache.commons.math3.stat.inference", "org.apache.commons.math3.util", "org.apache.commons.math3.linear", "org.apache.commons.math3.ml.clustering", "org.apache.commons.math3.geometry.enclosing", "org.apache.commons.math3.analysis.integration", "org.apache.commons.math3.geometry", "org.apache.commons.math3.stat.descriptive", "org.apache.commons.math3.analysis.solvers", "org.apache.commons.math3.optim.linear", "org.apache.commons.math3.optimization.linear", "org.apache.commons.math3.optim.univariate", "org.apache.commons.math3.geometry.euclidean.oned", "org.apache.commons.math3.analysis.polynomials", "org.apache.commons.math3.fitting", "org.apache.commons.math3.optim.nonlinear.scalar", "org.apache.commons.math3.analysis.differentiation", "org.apache.commons.math3.optimization.univariate", "org.apache.commons.math3.geometry.spherical.twod", "org.apache.commons.math3.ode.sampling", "org.apache.commons.math3.transform", "org.apache.commons.math3.stat", "org.apache.commons.math3.stat.interval", "org.apache.commons.math3.stat.descriptive.moment", "org.apache.commons.math3.optimization.general", "org.apache.commons.math3.geometry.euclidean.twod.hull", "org.apache.commons.math3.analysis.interpolation", "org.apache.commons.math3.distribution", "org.apache.commons.math3.optimization", "org.apache.commons.math3.complex", "org.apache.commons.math3.analysis", "org.apache.commons.math3.geometry.hull", "org.apache.commons.math3.geometry.euclidean.twod", "org.apache.commons.math3.stat.regression", "org.apache.commons.math3.stat.clustering", "org.apache.commons.math3.optim" ]
+  }, {
+    "groupId" : "com.google.code.findbugs",
+    "artifactId" : "jsr305",
+    "version" : "1.3.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javax.annotation", "javax.annotation.meta", "javax.annotation.concurrent" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-api",
+    "version" : "1.7.10",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.slf4j", "org.slf4j.spi", "org.slf4j.helpers" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jul-to-slf4j",
+    "version" : "1.7.10",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.slf4j.bridge" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jcl-over-slf4j",
+    "version" : "1.7.10",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.logging", "org.apache.commons.logging.impl" ]
+  }, {
+    "groupId" : "log4j",
+    "artifactId" : "log4j",
+    "version" : "1.2.17",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.log4j.config", "org.apache.log4j.jdbc", "org.apache.log4j.helpers", "org.apache.log4j.lf5.viewer.categoryexplorer", "org.apache.log4j.chainsaw", "org.apache.log4j.nt", "org.apache.log4j.lf5.viewer", "org.apache.log4j.lf5.viewer.configure", "org.apache.log4j.net", "org.apache.log4j.lf5", "org.apache.log4j.varia", "org.apache.log4j.xml", "org.apache.log4j.jmx", "org.apache.log4j.pattern", "org.apache.log4j.or", "org.apache.log4j.lf5.util", "org.apache.log4j.or.jms", "org.apache.log4j.rewrite", "org.apache.log4j", "org.apache.log4j.or.sax", "org.apache.log4j.spi" ]
+  }, {
+    "groupId" : "com.ning",
+    "artifactId" : "compress-lzf",
+    "version" : "1.0.3",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.ning.compress.lzf", "com.ning.compress.lzf.parallel", "com.ning.compress.lzf.util", "com.ning.compress.gzip", "com.ning.compress", "com.ning.compress.lzf.impl" ]
+  }, {
+    "groupId" : "org.xerial.snappy",
+    "artifactId" : "snappy-java",
+    "version" : "1.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.xerial.snappy", "org.xerial.snappy.buffer" ]
+  }, {
+    "groupId" : "net.jpountz.lz4",
+    "artifactId" : "lz4",
+    "version" : "1.3.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "net.jpountz.lz4", "net.jpountz.xxhash", "net.jpountz.util" ]
+  }, {
+    "groupId" : "org.roaringbitmap",
+    "artifactId" : "RoaringBitmap",
+    "version" : "0.5.11",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.roaringbitmap.buffer", "org.roaringbitmap" ]
+  }, {
+    "groupId" : "commons-net",
+    "artifactId" : "commons-net",
+    "version" : "2.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.net.chargen", "org.apache.commons.net", "org.apache.commons.net.ftp", "org.apache.commons.net.util", "org.apache.commons.net.finger", "org.apache.commons.net.daytime", "org.apache.commons.net.pop3", "org.apache.commons.net.whois", "org.apache.commons.net.smtp", "org.apache.commons.net.nntp", "org.apache.commons.net.ntp", "org.apache.commons.net.discard", "org.apache.commons.net.time", "org.apache.commons.net.echo", "org.apache.commons.net.telnet", "org.apache.commons.net.tftp", "org.apache.commons.net.bsd", "org.apache.commons.net.ftp.parser", "org.apache.commons.net.io" ]
+  }, {
+    "groupId" : "com.typesafe.akka",
+    "artifactId" : "akka-remote_2.10",
+    "version" : "2.3.11",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "akka.remote.security.provider", "akka.remote", "akka.remote.transport.netty", "akka.remote.routing", "akka.remote.serialization", "akka.remote.transport" ]
+  }, {
+    "groupId" : "com.typesafe.akka",
+    "artifactId" : "akka-actor_2.10",
+    "version" : "2.3.11",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "akka.event", "akka.actor.dungeon", "akka.event.japi", "akka.dispatch.sysmsg", "akka.actor", "akka.routing", "akka", "akka.japi.pf", "akka.actor.dsl", "akka.io", "akka.pattern", "akka.japi", "akka.util", "akka.dispatch", "akka.japi.function", "akka.serialization" ]
+  }, {
+    "groupId" : "com.typesafe",
+    "artifactId" : "config",
+    "version" : "1.2.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.typesafe.config.impl", "com.typesafe.config" ]
+  }, {
+    "groupId" : "io.netty",
+    "artifactId" : "netty",
+    "version" : "3.8.0.Final",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.jboss.netty.handler.timeout", "org.jboss.netty.channel.local", "org.jboss.netty.channel", "org.jboss.netty.handler.logging", "org.jboss.netty.handler.codec.oneone", "org.jboss.netty.util.internal", "org.jboss.netty.buffer", "org.jboss.netty.handler.execution", "org.jboss.netty.handler.codec.http.websocketx", "org.jboss.netty.handler.codec.serialization", "org.jboss.netty.handler.codec.embedder", "org.jboss.netty.handler.ipfilter", "org.jboss.netty.handler.codec.http", "org.jboss.netty.handler.codec.replay", "org.jboss.netty.container.spring", "org.jboss.netty.channel.socket", "org.jboss.netty.handler.codec.marshalling", "org.jboss.netty.util.internal.jzlib", "org.jboss.netty.handler.codec.http.multipart", "org.jboss.netty.handler.ssl", "org.jboss.netty.handler.stream", "org.jboss.netty.logging", "org.jboss.netty.channel.socket.oio", "org.jboss.netty.handler.codec.rtsp", "org.jboss.netty.channel.socket.nio", "org.jboss.netty.handler.codec", "org.jboss.netty.handler.codec.socks", "org.jboss.netty.container.microcontainer", "org.jboss.netty.handler.traffic", "org.jboss.netty.handler.queue", "org.jboss.netty.handler.codec.string", "org.jboss.netty.channel.group", "org.jboss.netty.bootstrap", "org.jboss.netty.handler.codec.http.websocket", "org.jboss.netty.handler.codec.frame", "org.jboss.netty.handler.codec.spdy", "org.jboss.netty.channel.socket.http", "org.jboss.netty.handler.codec.compression", "org.jboss.netty.util", "org.jboss.netty.container.osgi", "org.jboss.netty.handler.codec.base64", "org.jboss.netty.handler.codec.protobuf" ]
+  }, {
+    "groupId" : "com.google.protobuf",
+    "artifactId" : "protobuf-java",
+    "version" : "2.5.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.google.protobuf" ]
+  }, {
+    "groupId" : "org.uncommons.maths",
+    "artifactId" : "uncommons-maths",
+    "version" : "1.2.2a",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.uncommons.maths.number", "org.uncommons.maths", "org.uncommons.maths.combinatorics", "org.uncommons.maths.statistics", "org.uncommons.maths.binary", "org.uncommons.maths.random" ]
+  }, {
+    "groupId" : "com.typesafe.akka",
+    "artifactId" : "akka-slf4j_2.10",
+    "version" : "2.3.11",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "akka.event.slf4j" ]
+  }, {
+    "groupId" : "org.json4s",
+    "artifactId" : "json4s-jackson_2.10",
+    "version" : "3.2.10",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.json4s.jackson" ]
+  }, {
+    "groupId" : "org.json4s",
+    "artifactId" : "json4s-core_2.10",
+    "version" : "3.2.10",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.json4s", "org.json4s.reflect" ]
+  }, {
+    "groupId" : "org.json4s",
+    "artifactId" : "json4s-ast_2.10",
+    "version" : "3.2.10",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.json4s" ]
+  }, {
+    "groupId" : "org.scala-lang",
+    "artifactId" : "scalap",
+    "version" : "2.10.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "scala.tools.scalap.scalax.rules", "scala.tools.scalap", "scala.tools.scalap.scalax.util", "scala.tools.scalap.scalax.rules.scalasig" ]
+  }, {
+    "groupId" : "org.scala-lang",
+    "artifactId" : "scala-compiler",
+    "version" : "2.10.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "scala.reflect.macros.util", "scala.tools.nsc.doc", "scala.tools.cmd", "scala.tools.nsc.javac", "scala.tools.nsc.interactive.tests.core", "scala.tools.util", "scala.reflect.macros.runtime", "scala.tools.nsc.backend", "scala.tools.nsc.backend.jvm", "scala.tools.nsc.symtab", "scala.tools.ant.sabbus", "scala.tools.nsc.dependencies", "scala.tools.asm.util", "scala.tools.nsc.settings", "scala.tools.asm.signature", "scala.tools.nsc.scratchpad", "scala.tools.nsc.backend.icode", "scala.tools.nsc.backend.opt", "scala.tools.nsc.interactive.tests", "scala.tools.nsc.io", "scala.tools.nsc.matching", "scala.tools.nsc.backend.msil", "ch.epfl.lamp.fjbg", "scala.tools.nsc.doc.html.page.diagram", "scala.tools.asm", "ch.epfl.lamp.util", "scala.tools.nsc.doc.model", "scala.tools.nsc.plugins", "scala.tools.nsc.util", "scala.reflect.reify.phases", "scala.tools.nsc.symtab.classfile", "scala.tools.reflect", "scala.tools.nsc.reporters", "ch.epfl.lamp.compiler.msil.emit", "scala.tools.nsc.doc.html", "scala.tools.nsc.typechecker", "scala.tools.nsc.transform", "scala.tools.ant", "scala.tools.cmd.gen", "ch.epfl.lamp.compiler.msil.util", "scala.tools.nsc.ast", "scala.tools.asm.tree", "ch.epfl.lamp.compiler.msil", "scala.tools.nsc.interactive", "scala.tools.nsc.doc.doclet", "scala.tools.asm.tree.analysis", "scala.tools.nsc.backend.icode.analysis", "scala.tools.nsc.doc.html.page", "scala.tools.nsc.interpreter.session", "scala.reflect.reify.codegen", "scala.tools.nsc.doc.model.diagram", "scala.reflect.reify", "scala.tools.nsc.ast.parser", "scala.reflect.reify.utils", "scala.tools.nsc", "scala.tools.nsc.interpreter", "scala.tools.nsc.symtab.clr", "scala.tools.nsc.doc.model.comment" ]
+  }, {
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-server",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.server.impl.wadl", "com.sun.jersey.api.container.filter", "com.sun.jersey.server.wadl.generators.resourcedoc.xhtml", "com.sun.jersey.server.wadl.generators.resourcedoc", "com.sun.jersey.api.wadl.config", "com.sun.jersey.server.impl.model.method.dispatch", "com.sun.jersey.server.osgi", "com.sun.jersey.server.impl.resource", "com.sun.jersey.server.wadl.generators.resourcedoc.model", "com.sun.jersey.server.wadl", "com.sun.jersey.spi.monitoring", "com.sun.jersey.api.container", "com.sun.jersey.server.impl.cdi", "com.sun.jersey.server.impl.container.servlet", "com.sun.jersey.server.impl.provider", "com.sun.jersey.api.container.httpserver", "com.sun.jersey.api.wadl", "com.sun.jersey.server.impl.modelapi.validation", "com.sun.jersey.api", "com.sun.jersey.spi.dispatch", "com.sun.jersey.server.impl.model", "com.sun.jersey.server.impl.uri.rules", "com.sun.jersey.spi.container", "com.sun.jersey.server.impl.container", "com.sun.jersey.server.impl.model.parameter", "com.sun.jersey.server.impl.container.httpserver", "com.sun.jersey.server.impl.application", "com.sun.jersey.server.impl", "com.sun.jersey.server.spi.component", "com.sun.jersey.server.impl.template", "com.sun.jersey.spi.uri.rules", "com.sun.jersey.server.impl.model.parameter.multivalued", "com.sun.jersey.server.impl.component", "com.sun.jersey.api.core", "com.sun.jersey.server.wadl.generators", "com.sun.jersey.api.view", "com.sun.jersey.server.impl.modelapi.annotation", "com.sun.jersey.server.impl.inject", "com.sun.jersey.api.model", "com.sun.jersey.server.impl.managedbeans", "com.sun.jersey.server.impl.uri.rules.automata", "com.sun.jersey.server.impl.container.filter", "com.sun.jersey.server.impl.uri", "com.sun.jersey.server.impl.monitoring", "com.sun.jersey.spi.container.servlet", "com.sun.jersey.spi.template", "com.sun.jersey.spi.scanning", "com.sun.jersey.spi.resource", "com.sun.research.ws.wadl", "com.sun.jersey.server.impl.ejb", "com.sun.jersey.server.probes", "com.sun.jersey.server.impl.model.method" ]
+  }, {
+    "groupId" : "asm",
+    "artifactId" : "asm",
+    "version" : "3.1",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.objectweb.asm.signature", "org.objectweb.asm" ]
+  }, {
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-core",
+    "version" : "1.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.sun.jersey.core.spi.component", "com.sun.jersey.core.impl.provider.header", "com.sun.jersey.core.provider", "com.sun.jersey.spi.service", "com.sun.jersey.core.header", "com.sun.jersey.core.reflection", "com.sun.jersey.core.spi.scanning.uri", "com.sun.jersey.api.representation", "com.sun.jersey.core.provider.jaxb", "com.sun.jersey.core.osgi", "com.sun.jersey.core.util", "com.sun.jersey.core.spi.component.ioc", "com.sun.jersey.core.spi.factory", "com.sun.jersey.spi", "com.sun.jersey.impl", "com.sun.jersey.core.impl.provider.xml", "javax.ws.rs.ext", "com.sun.jersey.spi.inject", "javax.ws.rs.core", "com.sun.jersey.core.header.reader", "com.sun.jersey.core.spi.scanning", "com.sun.jersey.core.impl.provider.entity", "javax.ws.rs", "com.sun.jersey.localization", "com.sun.jersey.api.uri", "com.sun.jersey.api.provider.jaxb" ]
+  }, {
+    "groupId" : "org.apache.mesos",
+    "artifactId" : "mesos",
+    "version" : "shaded-protobuf",
+    "scope" : "0.21.1",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : null
+  }, {
+    "groupId" : "io.netty",
+    "artifactId" : "netty-all",
+    "version" : "4.0.29.Final",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "io.netty.handler.codec.rtsp", "io.netty.channel.sctp.nio", "io.netty.handler.codec.serialization", "io.netty.channel.udt", "io.netty.channel.socket.nio", "io.netty.handler.timeout", "io.netty.handler.codec.bytes", "io.netty.handler.codec", "io.netty.channel.oio", "io.netty.handler.stream", "io.netty.handler.codec.protobuf", "io.netty.handler.codec.http.multipart", "io.netty.channel.socket", "io.netty.buffer", "io.netty.channel.embedded", "io.netty.handler.codec.socks", "io.netty.util", "io.netty.handler.ssl", "io.netty.handler.codec.haproxy", "io.netty.handler.codec.http", "io.netty.handler.codec.http.websocketx", "io.netty.handler.traffic", "io.netty.handler.codec.string", "io.netty.channel.rxtx", "io.netty.channel.sctp", "io.netty.handler.codec.http.cookie", "io.netty.channel.sctp.oio", "io.netty.channel.udt.nio", "io.netty.handler.codec.base64", "io.netty.util.internal", "io.netty.channel.socket.oio", "io.netty.handler.logging", "io.netty.util.internal.logging", "io.netty.bootstrap", "io.netty.util.concurrent", "io.netty.handler.codec.http.cors", "io.netty.channel.nio", "io.netty.channel", "io.netty.channel.local", "io.netty.util.internal.chmv8", "io.netty.util.collection", "io.netty.handler.codec.compression", "io.netty.handler.codec.spdy", "io.netty.handler.codec.marshalling", "io.netty.channel.pool", "io.netty.channel.group", "io.netty.channel.unix", "io.netty.channel.epoll", "io.netty.handler.codec.sctp", "io.netty.handler.ssl.util" ]
+  }, {
+    "groupId" : "com.clearspring.analytics",
+    "artifactId" : "stream",
+    "version" : "2.7.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.clearspring.analytics.stream", "com.clearspring.analytics.util", "com.clearspring.analytics.hash", "com.clearspring.analytics.stream.membership", "com.clearspring.analytics.stream.frequency", "com.clearspring.analytics.stream.quantile", "com.clearspring.analytics.stream.cardinality" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-core",
+    "version" : "3.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-jvm",
+    "version" : "3.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.jvm" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-json",
+    "version" : "3.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.json" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-graphite",
+    "version" : "3.1.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.graphite" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-databind",
+    "version" : "2.4.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.databind.exc", "com.fasterxml.jackson.databind.introspect", "com.fasterxml.jackson.databind.deser", "com.fasterxml.jackson.databind.jsontype", "com.fasterxml.jackson.databind.type", "com.fasterxml.jackson.databind.module", "com.fasterxml.jackson.databind.node", "com.fasterxml.jackson.databind.jsonFormatVisitors", "com.fasterxml.jackson.databind.jsontype.impl", "com.fasterxml.jackson.databind.ext", "com.fasterxml.jackson.databind.ser.std", "com.fasterxml.jackson.databind.util", "com.fasterxml.jackson.databind.jsonschema", "com.fasterxml.jackson.databind.ser", "com.fasterxml.jackson.databind.cfg", "com.fasterxml.jackson.databind.deser.impl", "com.fasterxml.jackson.databind.annotation", "com.fasterxml.jackson.databind", "com.fasterxml.jackson.databind.ser.impl", "com.fasterxml.jackson.databind.deser.std" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-core",
+    "version" : "2.4.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.core.format", "com.fasterxml.jackson.core.io", "com.fasterxml.jackson.core.json", "com.fasterxml.jackson.core", "com.fasterxml.jackson.core.util", "com.fasterxml.jackson.core.type", "com.fasterxml.jackson.core.base", "com.fasterxml.jackson.core.sym" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-scala_2.10",
+    "version" : "2.4.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.module.scala", "com.fasterxml.jackson.module.scala.deser", "com.fasterxml.jackson.module.scala.experimental", "com.fasterxml.jackson.module.scala.ser", "com.fasterxml.jackson.module.scala.modifiers", "com.fasterxml.jackson.module.scala.introspect", "com.fasterxml.jackson.module.scala.util" ]
+  }, {
+    "groupId" : "org.scala-lang",
+    "artifactId" : "scala-reflect",
+    "version" : "2.10.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "scala.reflect.internal.annotations", "scala.reflect.internal.settings", "scala.reflect.internal", "scala.reflect.io", "scala.reflect.internal.transform", "scala.reflect.internal.pickling", "scala.reflect.api", "scala.reflect.runtime", "scala.reflect.internal.util", "scala.reflect.macros" ]
+  }, {
+    "groupId" : "com.thoughtworks.paranamer",
+    "artifactId" : "paranamer",
+    "version" : "2.6",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.thoughtworks.paranamer" ]
+  }, {
+    "groupId" : "org.apache.ivy",
+    "artifactId" : "ivy",
+    "version" : "2.4.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.ivy.core.event.download", "org.apache.ivy.core.sort", "org.apache.ivy.core.publish", "org.apache.ivy.osgi.util", "org.apache.ivy.core.event.publish", "org.apache.ivy.plugins.latest", "org.apache.ivy.plugins.repository.vfs", "org.apache.ivy.util", "org.apache.ivy.util.extendable", "org.apache.ivy.plugins", "org.apache.ivy.plugins.repository.file", "org.apache.ivy.osgi.repo", "org.apache.ivy.util.url", "org.apache.ivy.core.event.resolve", "org.apache.ivy.plugins.version", "org.apache.ivy.plugins.repository", "org.apache.ivy.plugins.trigger", "org.apache.ivy.core.pack", "org.apache.ivy.plugins.circular", "org.apache.ivy.core.retrieve", "org.apache.ivy.core.module.status", "org.apache.ivy.plugins.repository.url", "org.apache.ivy.core.module.id", "org.apache.ivy.core.repository", "org.apache.ivy.util.cli", "org.apache.ivy.core", "org.apache.ivy.osgi.p2", "org.apache.ivy.osgi.obr.xml", "org.apache.ivy.osgi.updatesite.xml", "org.apache.ivy.plugins.parser", "org.apache.ivy.osgi.core", "org.apache.ivy.plugins.lock", "org.apache.ivy.core.deliver", "org.apache.ivy.plugins.report", "org.apache.ivy", "org.apache.ivy.core.module.descriptor", "org.apache.ivy.core.check", "org.apache.ivy.plugins.repository.jar", "org.apache.ivy.osgi.filter", "org.apache.ivy.osgi.obr", "org.apache.ivy.plugins.signer", "org.apache.ivy.core.settings", "org.apache.ivy.core.event", "org.apache.ivy.plugins.namespace", "org.apache.ivy.core.cache", "org.apache.ivy.plugins.matcher", "org.apache.ivy.plugins.repository.ssh", "org.apache.ivy.core.report", "org.apache.ivy.plugins.resolver", "org.apache.ivy.tools.analyser", "org.apache.ivy.util.filter", "org.apache.ivy.core.search", "org.apache.ivy.plugins.conflict", "org.apache.ivy.plugins.parser.xml", "org.apache.ivy.plugins.signer.bouncycastle", "org.apache.ivy.plugins.resolver.packager", "org.apache.ivy.plugins.resolver.util", "org.apache.ivy.core.install", "org.apache.ivy.plugins.repository.vsftp", "org.apache.ivy.core.resolve", "org.apache.ivy.osgi.updatesite", "org.apache.ivy.ant", "org.apache.ivy.core.event.retrieve", "org.apache.ivy.plugins.parser.m2", "org.apache.ivy.plugins.repository.sftp" ]
+  }, {
+    "groupId" : "oro",
+    "artifactId" : "oro",
+    "version" : "2.0.8",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.oro.text.perl", "org.apache.oro.util", "org.apache.oro.text.regex", "org.apache.oro.text", "org.apache.oro.io", "org.apache.oro.text.awk" ]
+  }, {
+    "groupId" : "org.tachyonproject",
+    "artifactId" : "tachyon-client",
+    "version" : "0.8.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "tachyon.security.login", "tachyon.heartbeat", "tachyon.worker", "tachyon.conf", "tachyon.underfs", "tachyon.thrift", "tachyon.org.apache.thrift", "tachyon.exception", "tachyon.network.protocol.databuffer", "tachyon.hadoop", "tachyon.util.network", "tachyon.org.apache.thrift.transport", "tachyon.job", "tachyon.retry", "tachyon.resource", "tachyon.master.block", "tachyon.util.io", "tachyon.client.lineage", "tachyon.security.authentication", "tachyon.client.lineage.options", "tachyon.client.tcp", "tachyon.org.apache.thrift.async", "tachyon.security", "tachyon.client.file.options", "tachyon.client.file", "tachyon.org.apache.thrift.server", "tachyon.client", "tachyon.org.apache.thrift.scheme", "tachyon.client.block", "tachyon.collections", "tachyon.org.apache.thrift.meta_data", "tachyon.annotation", "tachyon.org.apache.thrift.protocol", "tachyon.test", "tachyon.util", "tachyon", "tachyon.network.protocol", "tachyon.client.netty", "tachyon.network", "tachyon.client.table" ]
+  }, {
+    "groupId" : "commons-lang",
+    "artifactId" : "commons-lang",
+    "version" : "2.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.lang.builder", "org.apache.commons.lang.exception", "org.apache.commons.lang.text", "org.apache.commons.lang.time", "org.apache.commons.lang.enum", "org.apache.commons.lang", "org.apache.commons.lang.math", "org.apache.commons.lang.mutable", "org.apache.commons.lang.enums" ]
+  }, {
+    "groupId" : "commons-io",
+    "artifactId" : "commons-io",
+    "version" : "2.4",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.io.input", "org.apache.commons.io.comparator", "org.apache.commons.io.output", "org.apache.commons.io.monitor", "org.apache.commons.io", "org.apache.commons.io.filefilter" ]
+  }, {
+    "groupId" : "org.tachyonproject",
+    "artifactId" : "tachyon-underfs-hdfs",
+    "version" : "0.8.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "tachyon.underfs.hdfs" ]
+  }, {
+    "groupId" : "org.tachyonproject",
+    "artifactId" : "tachyon-underfs-s3",
+    "version" : "0.8.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "tachyon.org.jets3t.service.security", "tachyon.underfs.s3", "tachyon.org.jets3t.service.utils.signedurl", "tachyon.org.jets3t.service.utils.gatekeeper", "tachyon.org.jets3t.service.model", "tachyon.org.jets3t.service.impl.rest", "tachyon.org.jets3t.service", "tachyon.org.jets3t.service.utils", "tachyon.org.jets3t.service.impl.rest.httpclient", "tachyon.org.jets3t.service.model.cloudfront", "tachyon.org.jets3t.service.multi.s3", "tachyon.org.jets3t.service.multi", "tachyon.org.jets3t.service.acl", "tachyon.org.jets3t.service.acl.gs", "tachyon.org.jets3t.service.multithread", "tachyon.org.jets3t.service.mx", "tachyon.org.jets3t.service.multi.event", "tachyon.org.jets3t.service.io" ]
+  }, {
+    "groupId" : "org.tachyonproject",
+    "artifactId" : "tachyon-underfs-local",
+    "version" : "0.8.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "tachyon.underfs.local" ]
+  }, {
+    "groupId" : "net.razorvine",
+    "artifactId" : "pyrolite",
+    "version" : "4.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "net.razorvine.pickle", "net.razorvine.pyro.serializer", "net.razorvine.pickle.objects", "net.razorvine.pyro" ]
+  }, {
+    "groupId" : "net.sf.py4j",
+    "artifactId" : "py4j",
+    "version" : "0.9",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "py4j.model", "py4j", "py4j.reflection", "py4j.commands" ]
+  }, {
+    "groupId" : "org.spark-project.spark",
+    "artifactId" : "unused",
+    "version" : "1.0.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.spark.unused" ]
+  }, {
+    "groupId" : "org.apache.spark",
+    "artifactId" : "spark-streaming_2.10",
+    "version" : "1.6.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.spark.streaming.scheduler", "org.apache.spark.streaming.ui", "org.apache.spark.streaming.util", "org.apache.spark.streaming.rdd", "org.apache.spark.streaming.dstream", "org.apache.spark.unused", "org.apache.spark.streaming.receiver", "org.apache.spark.streaming.api.java", "org.apache.spark.streaming.api.python", "org.apache.spark.streaming", "org.apache.spark.streaming.scheduler.rate" ]
+  }, {
+    "groupId" : "commons-cli",
+    "artifactId" : "commons-cli",
+    "version" : "1.2",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.cli" ]
+  }, {
+    "groupId" : "commons-logging",
+    "artifactId" : "commons-logging",
+    "version" : "1.1.3",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.logging", "org.apache.commons.logging.impl" ]
+  }, {
+    "groupId" : "net.sf.jopt-simple",
+    "artifactId" : "jopt-simple",
+    "version" : "3.2",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "joptsimple.internal", "joptsimple.util", "joptsimple" ]
+  }, {
+    "groupId" : "com.google.guava",
+    "artifactId" : "guava",
+    "version" : "13.0",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.google.common.hash", "com.google.common.base", "com.google.common.annotations", "com.google.common.reflect", "com.google.common.util.concurrent", "com.google.common.net", "com.google.common.math", "com.google.common.primitives", "com.google.common.base.internal", "com.google.common.cache", "com.google.common.eventbus", "com.google.common.io", "com.google.common.collect" ]
+  }, {
+    "groupId" : "org.apache.curator",
+    "artifactId" : "curator-framework",
+    "version" : "2.6.0",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.curator.framework.imps", "org.apache.curator.framework.api.transaction", "org.apache.curator.framework", "org.apache.curator.framework.api", "org.apache.curator.framework.state", "org.apache.curator.framework.listen" ]
+  }, {
+    "groupId" : "org.apache.curator",
+    "artifactId" : "curator-client",
+    "version" : "2.6.0",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.curator", "org.apache.curator.utils", "org.apache.curator.ensemble.fixed", "org.apache.curator.ensemble", "org.apache.curator.ensemble.exhibitor", "org.apache.curator.drivers", "org.apache.curator.retry" ]
+  }, {
+    "groupId" : "org.apache.zookeeper",
+    "artifactId" : "zookeeper",
+    "version" : "3.4.6",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.zookeeper.version", "org.apache.jute", "org.apache.zookeeper.server.persistence", "org.apache.zookeeper.client", "org.apache.jute.compiler.generated", "org.apache.zookeeper", "org.apache.zookeeper.data", "org.apache.zookeeper.proto", "org.apache.zookeeper.server", "org.apache.zookeeper.version.util", "org.apache.jute.compiler", "org.apache.zookeeper.common", "org.apache.zookeeper.jmx", "org.apache.zookeeper.server.upgrade", "org.apache.zookeeper.server.quorum.flexible", "org.apache.zookeeper.server.auth", "org.apache.zookeeper.server.util", "org.apache.zookeeper.txn", "org.apache.zookeeper.server.quorum" ]
+  }, {
+    "groupId" : "jline",
+    "artifactId" : "jline",
+    "version" : "0.9.94",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "jline" ]
+  }, {
+    "groupId" : "org.apache.curator",
+    "artifactId" : "curator-recipes",
+    "version" : "2.6.0",
+    "scope" : "test",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.curator.framework.recipes.cache", "org.apache.curator.framework.recipes.leader", "org.apache.curator.framework.recipes.shared", "org.apache.curator.framework.recipes.locks", "org.apache.curator.framework.recipes", "org.apache.curator.framework.recipes.queue", "org.apache.curator.framework.recipes.atomic", "org.apache.curator.framework.recipes.nodes", "org.apache.curator.framework.recipes.barriers" ]
+  }, {
+    "groupId" : "org.apache.curator",
+    "artifactId" : "curator-test",
+    "version" : "2.6.0",
+    "scope" : "test",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.curator.test" ]
+  }, {
+    "groupId" : "org.javassist",
+    "artifactId" : "javassist",
+    "version" : "3.18.1-GA",
+    "scope" : "test",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "javassist.convert", "javassist.tools", "javassist.tools.reflect", "javassist.expr", "javassist.tools.rmi", "javassist.util", "javassist.bytecode.analysis", "javassist.bytecode.annotation", "javassist.bytecode.stackmap", "javassist.util.proxy", "javassist.compiler", "javassist.runtime", "javassist.bytecode", "javassist.scopedpool", "javassist.compiler.ast", "javassist", "javassist.tools.web" ]
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-math",
+    "version" : "2.2",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.math.exception", "org.apache.commons.math.analysis.polynomials", "org.apache.commons.math.ode.nonstiff", "org.apache.commons.math.exception.util", "org.apache.commons.math.random", "org.apache.commons.math.stat.correlation", "org.apache.commons.math.stat.descriptive.summary", "org.apache.commons.math.geometry", "org.apache.commons.math.analysis.integration", "org.apache.commons.math.util", "org.apache.commons.math.stat.descriptive", "org.apache.commons.math.linear", "org.apache.commons.math.complex", "org.apache.commons.math.genetics", "org.apache.commons.math.distribution", "org.apache.commons.math.fraction", "org.apache.commons.math.transform", "org.apache.commons.math.optimization.fitting", "org.apache.commons.math.dfp", "org.apache.commons.math.stat", "org.apache.commons.math.ode.sampling", "org.apache.commons.math.ode.jacobians", "org.apache.commons.math.analysis.solvers", "org.apache.commons.math.stat.clustering", "org.apache.commons.math.stat.descriptive.moment", "org.apache.commons.math.ode", "org.apache.commons.math.stat.descriptive.rank", "org.apache.commons.math.optimization.direct", "org.apache.commons.math.estimation", "org.apache.commons.math.optimization.univariate", "org.apache.commons.math.stat.regression", "org.apache.commons.math.stat.ranking", "org.apache.commons.math.optimization.linear", "org.apache.commons.math.ode.events", "org.apache.commons.math", "org.apache.commons.math.special", "org.apache.commons.math.optimization.general", "org.apache.commons.math.stat.inference", "org.apache.commons.math.analysis", "org.apache.commons.math.analysis.interpolation", "org.apache.commons.math.optimization" ]
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.10",
+    "version" : "0.10.0.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "kafka.javaapi.consumer", "kafka.consumer", "kafka.common", "kafka.controller", "kafka.utils", "kafka.admin", "kafka.message", "kafka.network", "kafka.javaapi.message", "kafka.tools", "kafka.log", "kafka.utils.timer", "kafka.producer", "kafka.serializer", "kafka.client", "kafka.producer.async", "kafka.coordinator", "kafka.javaapi", "kafka.security.auth", "kafka.javaapi.producer", "kafka.server", "kafka.cluster", "kafka", "kafka.api", "kafka.metrics" ]
+  }, {
+    "groupId" : "com.101tec",
+    "artifactId" : "zkclient",
+    "version" : "0.8",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.I0Itec.zkclient", "org.I0Itec.zkclient.serialize", "org.I0Itec.zkclient.util", "org.I0Itec.zkclient.exception" ]
+  }, {
+    "groupId" : "com.yammer.metrics",
+    "artifactId" : "metrics-core",
+    "version" : "2.2.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "com.yammer.metrics.core", "com.yammer.metrics.util", "com.yammer.metrics.stats", "com.yammer.metrics.reporting", "com.yammer.metrics" ]
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-clients",
+    "version" : "0.10.0.0",
+    "scope" : "provided",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.apache.kafka.clients.consumer", "org.apache.kafka.common.requests", "org.apache.kafka.common.errors", "org.apache.kafka.common.security", "org.apache.kafka.clients", "org.apache.kafka.common.security.authenticator", "org.apache.kafka.common.annotation", "org.apache.kafka.common.security.auth", "org.apache.kafka.common.protocol", "org.apache.kafka.common.internals", "org.apache.kafka.common.network", "org.apache.kafka.common.serialization", "org.apache.kafka.common.security.ssl", "org.apache.kafka.common.protocol.types", "org.apache.kafka.common.config", "org.apache.kafka.clients.consumer.internals", "org.apache.kafka.clients.producer", "org.apache.kafka.common.metrics.stats", "org.apache.kafka.common.cache", "org.apache.kafka.common", "org.apache.kafka.common.metrics", "org.apache.kafka.common.security.kerberos", "org.apache.kafka.common.security.plain", "org.apache.kafka.common.utils", "org.apache.kafka.common.config.types", "org.apache.kafka.clients.producer.internals", "org.apache.kafka.common.record" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-log4j12",
+    "version" : "1.7.4",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "org.slf4j.impl" ]
+  }, {
+    "groupId" : "org.scala-lang",
+    "artifactId" : "scala-library",
+    "version" : "2.10.0",
+    "scope" : "compile",
+    "packaging" : "jar",
+    "systemPath" : null,
+    "packages" : [ "scala.annotation.unchecked", "scala.util", "scala.util.parsing.input", "scala.collection", "scala.concurrent.forkjoin", "scala.reflect.macros.internal", "scala.collection.parallel.mutable", "scala.util.continuations", "scala.sys.process", "scala.concurrent.util", "scala.math", "scala.io", "scala.collection.script", "scala.collection.convert", "scala.parallel", "scala.testing", "scala.xml", "scala.collection.immutable", "scala.ref", "scala.util.hashing", "scala.xml.pull", "scala.xml.parsing", "scala.collection.generic", "scala.runtime", "scala.util.control", "scala.xml.factory", "scala.xml.include", "scala.annotation.target", "scala.util.parsing.combinator.token", "scala.annotation", "scala.util.matching", "scala.beans", "scala.util.parsing.json", "scala", "scala.concurrent", "scala.compat", "scala.util.logging", "scala.util.regexp", "scala.reflect", "scala.collection.concurrent", "scala.util.parsing.combinator.testing", "scala.util.parsing.combinator", "scala.xml.dtd", "scala.sys", "scala.util.parsing.ast", "scala.collection.mutable", "scala.collection.parallel", "scala.util.parsing.combinator.syntactical", "scala.collection.parallel.immutable", "scala.concurrent.duration", "scala.concurrent.impl", "scala.util.automata", "scala.annotation.meta", "scala.xml.include.sax", "scala.util.parsing.combinator.lexical", "scala.text", "scala.xml.persistent", "scala.util.grammar", "scala.xml.transform" ]
+  } ]
+}
